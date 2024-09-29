@@ -9,7 +9,7 @@ export default async function Page() {
 
   return (
     <div>
-      <h1>Top: {content}</h1>
+      <h1>Sub: {content}</h1>
       <div><Link href="/">Top</Link> / <Link href="/sub">Sub</Link></div>
     </div>
   );
